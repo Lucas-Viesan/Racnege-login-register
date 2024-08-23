@@ -129,6 +129,15 @@ input {
   background-color: #eb6114;
 }
 
+.auth-container-register {
+  width: 100vw;
+  height: 130vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eb6114;
+}
+
 .auth-content {
   display: flex;
   align-items: center;
