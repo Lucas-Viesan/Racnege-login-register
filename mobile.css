@@ -18,7 +18,7 @@
   button {
     width: 432px;
     height: 92px;
-    font-size: 36px;
+    font-size: 32px;
     font-weight: bold;
   }
 
@@ -45,8 +45,17 @@
     height: auto;
   }
 
+  .auth-container-register {
+    width: 100vw;
+    height: 110vh;
+  }
+
   .auth-content {
     width: 720px;
-    height: 70vh;
+    height: 65vh;
+  }
+  .mobile-auth-content-register {
+    width: 720px;
+    height: 85vh;
   }
 }
