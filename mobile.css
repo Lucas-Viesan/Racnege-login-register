@@ -1,0 +1,51 @@
+@media only screen and (max-device-width: 450px) {
+  h3 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 22px;
+  }
+
+  label {
+    font-size: 24px;
+  }
+
+  a {
+    font-size: 22px;
+  }
+
+  button {
+    width: 432px;
+    height: 92px;
+    font-size: 24px;
+  }
+
+  input {
+    width: 100%;
+    height: 92px;
+    font-size: 24px;
+  }
+
+  .mobile-mt {
+    margin-top: 20px;
+  }
+
+  .mobile-mt-larger {
+    margin-top: 48px;
+  }
+
+  .mobile-mt-large {
+    margin-top: 28px;
+  }
+
+  .logo {
+    width: 450px;
+    height: auto;
+  }
+
+  .auth-content {
+    width: 640px;
+    height: 70vh;
+  }
+}
