@@ -5,6 +5,7 @@
     <title>Cadastro - Racnegê</title>
     <link rel="stylesheet" href="../../style.css" />
     <link rel="stylesheet" href="../../mobile.css" />
+    <script src="index.js"></script>
   </head>
   <body>
     <div class="auth-container-register">
@@ -18,37 +19,46 @@
             Insira seu nome, email e sua senha para ter acesso à plataforma de
             reservas e empréstimos Racnegê.
           </p>
-          <label class="mt mobile-mt-large" for="input-name">Nome</label>
-          <input
-            class="mt-smaller mobile-mt"
-            id="input-name"
-            name="input-name"
-            placeholder="Ex: José da Silva"
-          />
-          <label class="mt mobile-mt-large" for="input-email">E-mail</label>
-          <input
-            class="mt-smaller mobile-mt"
-            id="input-email"
-            name="input-email"
-            placeholder="email@exemplo.com"
-          />
-          <label class="mt mobile-mt-large" for="input-senha">Senha</label>
-          <input
-            class="mt-smaller mobile-mt"
-            id="input-senha"
-            name="input-senha"
-            placeholder="senha"
-          />
-          <label class="mt mobile-mt-large" for="input-confirma-senha"
-            >Confirmar Senha</label
-          >
-          <input
-            class="mt-smaller mobile-mt"
-            id="input-confirma-senha"
-            name="input-confirma-senha"
-            placeholder="confirmar senha"
-          />
-          <button class="full-width mt-large mobile-mt-larger">Acessar</button>
+          <form id="form-register">
+            <label class="mt mobile-mt-large" for="input-name">Nome</label>
+            <input
+              class="mt-smaller mobile-mt"
+              id="input-name"
+              name="input-name"
+              placeholder="Ex: José da Silva"
+            />
+            <label class="mt mobile-mt-large" for="input-email">E-mail</label>
+            <input
+              class="mt-smaller mobile-mt"
+              id="input-email"
+              name="input-email"
+              placeholder="email@exemplo.com"
+            />
+            <label class="mt mobile-mt-large" for="input-cpf">CPF</label>
+            <input
+              class="mt-smaller mobile-mt"
+              id="input-cpf"
+              name="input-cpf"
+              placeholder="CPF"
+            />
+            <label class="mt mobile-mt-large" for="input-phone">Celular</label>
+            <input
+              class="mt-smaller mobile-mt"
+              id="input-phone"
+              name="input-phone"
+              placeholder="(99) 9999-999"
+            />
+            <label class="mt mobile-mt-large" for="input-senha">Senha</label>
+            <input
+              class="mt-smaller mobile-mt"
+              id="input-senha"
+              name="input-senha"
+              placeholder="senha"
+            />
+            <button class="full-width mt-large mobile-mt-larger">
+              Acessar
+            </button>
+          </form>
           <a href="../../index.html" class="mt-larger mobile-mt-larger"
             >Já possui uma conta? Faça seu login.</a
           >
