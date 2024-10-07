@@ -8,11 +8,10 @@ const onCallRegister = async (name, email, cpf, phone, password) => {
       password,
     };
 
-    const response = await fetch("http://localhost:8081/api/users/register", {
+    const response = await fetch("http://127.0.0.1:8081/api/users/register", {
       method: "POST",
       mode: "cors",
       cache: "no-cache",
-      credentials: "same-origin",
       headers: {
         "Content-Type": "application/json",
       },
@@ -31,6 +30,12 @@ const onRegister = async () => {
   const cpf = document.getElementById("input-cpf").value;
   const phone = document.getElementById("input-phone").value;
   const password = document.getElementById("input-senha").value;
+
+  // const email = "beltrano@email.com";
+  // const name = "Beltrano Ciclano";
+  // const cpf = "305.601.697-52";
+  // const phone = "(89) 99817-7088";
+  // const password = "senha123";
 
   if (name.length < 3) {
     alert("Nome deve conter mais de 3 caracters");
