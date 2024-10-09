@@ -32,9 +32,8 @@ const onClickLogin = async () => {
     return;
   }
 
-  localStorage.setItem("@AcervoRacnege:userEmail", result.email);
-  localStorage.setItem("@AcervoRacnege:userName", result.name);
-  localStorage.setItem("@AcervoRacnege:userId", result.id);
+  localStorage.setItem("@AcervoRacnege:userEmail", email);
+  window.open("./src/pages/home/index.html", "_self");
 };
 
 window.onload = () => {
