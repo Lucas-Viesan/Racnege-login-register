@@ -8,6 +8,10 @@ h5 {
   margin-top: 10px;
 }
 
+h2 {
+  color: #ffffff;
+}
+
 h3 {
   margin: 0px;
   color: #eb6114;
@@ -80,6 +84,24 @@ h3.home {
   width: 48px;
   border-radius: 24px;
   background-color: #f4f4f4;
+}
+
+.navbar-user-avatar-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  width: 48px;
+  border-radius: 24px;
+  background-color: #eb6114;
+}
+
+.navbar-user-avatar-2-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .books-container {
