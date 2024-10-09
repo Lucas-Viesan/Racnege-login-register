@@ -31,12 +31,6 @@ const onRegister = async () => {
   const phone = document.getElementById("input-phone").value;
   const password = document.getElementById("input-senha").value;
 
-  // const email = "beltrano@email.com";
-  // const name = "Beltrano Ciclano";
-  // const cpf = "305.601.697-52";
-  // const phone = "(89) 99817-7088";
-  // const password = "senha123";
-
   if (name.length < 3) {
     alert("Nome deve conter mais de 3 caracters");
     return;
@@ -51,6 +45,10 @@ const onRegister = async () => {
     alert("Falha ao cadastrar");
     return;
   }
+
+  localStorage.setItem("@AcervoRacnege:userEmail", email);
+  localStorage.setItem("@AcervoRacnege:userName", name);
+  window.open("../home/index.html", "_self");
 };
 
 window.onload = () => {

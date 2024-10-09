@@ -33,6 +33,7 @@ const onClickLogin = async () => {
   }
 
   localStorage.setItem("@AcervoRacnege:userEmail", email);
+  localStorage.setItem("@AcervoRacnege:userName", result.name);
   window.open("./src/pages/home/index.html", "_self");
 };
 
